@@ -1,7 +1,7 @@
 29 January 2024
 Create a repository on github and then open the folder in which you have to initialize the github repository
 #To initialize git repo
-Open Git Bash through your VS 
+Open Git Bash through your VS
 git init
 git add .
 git status
@@ -19,9 +19,12 @@ git remote add origin https://github.com/sansrp358/JavaScript.git
 to see the data
 git remote -v
 
+To check if there exists some other branch while pushing the code
+git branch -a
+
 The above command will show you the origin (LINK)
 
-Now to push 
+Now to push
 git push -u origin master
 
 VOILA!! DONE. Now you can refresh your github page, you can see the changes available on GITHUB TOO
